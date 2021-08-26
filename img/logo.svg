@@ -1,6 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="184.136" height="46.36" viewBox="0 0 184.136 46.36">
-  <g id="Logo" transform="translate(-258.98 -51.39)" style="isolation: isolate">
-    <path id="Layer_14" data-name="Layer 14" d="M282.16,97.75a23.108,23.108,0,1,1,9.023-1.822A23.034,23.034,0,0,1,282.16,97.75Zm0-33.3A10.12,10.12,0,1,0,292.28,74.57,10.132,10.132,0,0,0,282.16,64.45Z" fill="#3dcfd3"/>
-    <text id="Creative" transform="translate(383.116 84.301)" fill="#fff" font-size="28" font-family="Poppins-Regular, Poppins"><tspan x="-59.248" y="0">Creative</tspan></text>
+<svg width="184.136" height="46.36" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <g id="Logo">
+   <path fill="#3dcfd3" d="m23.17999,46.36a23.108,23.108 0 1 1 9.023,-1.822a23.034,23.034 0 0 1 -9.023,1.822zm0,-33.3a10.12,10.12 0 1 0 10.12,10.12a10.132,10.132 0 0 0 -10.12,-10.12z" data-name="Layer 14" id="Layer_14"/>
+   <text x="124.13599" y="32.911" font-family="Poppins-Regular, Poppins" font-size="28" fill="#fff" id="Creative">
+    <tspan id="svg_1" y="0" x="323.868">Creative</tspan>
+   </text>
   </g>
+  <text font-style="normal" font-weight="normal" transform="matrix(1.09965 0 0 1.32565 -4.27509 -2.21388)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="serif" font-size="24" id="svg_4" y="1.44706" x="2.46083" stroke-width="0" fill="#ed2f2f">Imrul Afnan</text>
+  <text transform="matrix(1.09937 0 0 1.3439 -5.96382 -1.45082)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="serif" font-size="24" id="svg_5" y="27.08841" x="53.23297" stroke-width="0" fill="#ffffff">Imrul Afnan</text>
+ </g>
 </svg>

@@ -26,6 +26,21 @@ header{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
 }
 
+.about{  
+    background: var(--dark);  
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
+}
+
+.education{  
+    background: var(--dark);  
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
+}
+
+.contact{  
+    background: var(--dark);  
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);    
+}
+
 
 .container{
     max-width: 1152px;
@@ -126,4 +141,136 @@ header nav .branding{
 .social a:hover{
     background: var(--primary);
     border-radius: 50%;
+}
+
+.aboutbody{
+    background: var(--dark); 
+    height: 607px;
+}
+
+.educationbody{
+    background: var(--dark); 
+    height: 605px;
+}
+
+.contactbody{
+    background: var(--dark); 
+    height: 605px;
+}
+
+
+.circle{
+    margin-left: 5rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: var(--primary);
+    border-radius: 50%;
+    text-align: center;    
+}
+
+.circle h1{
+    padding: 2.2rem 0 0.2rem 0;
+    font-size: 2.7rem;
+}
+
+.circle h3{
+    font-size: 1.6rem;
+}
+
+.ssc, .hsc, .bsc{
+    display: flex;
+    padding: 0.4rem;
+    border: 0.4rem solid var(--primary);
+    border-radius: 1rem;
+    margin: 0.2rem;
+}
+
+.hscdetails, .sscdetails, .bscdetails{
+    margin-left: 8rem;
+    color: var(--pure);
+    font-size: 1rem;
+    padding: 2.6rem;
+}
+
+.hscdetails a, .sscdetails a, .bscdetails a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.contactcard{
+    background-color: var(--primary);
+    height: 33rem;
+    width: 22rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.contactcard h1{
+    font-size: 2.4rem;
+    color: var(--pure);
+    padding: 2rem;
+}
+
+.contactcard img{
+    margin: 0 1rem;
+}
+
+.contactcard .phone{
+    padding: 0 0 0.4rem 2rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contactcard .email{    
+    padding: 0 0 0.4rem 2rem;
+    display: flex;
+}
+
+
+.contactcard .email a{
+    display: flex;
+    text-decoration: none;
+    color: var(--dark);
+    align-items: center;
+}
+
+
+.feedback{
+    margin: 2rem;
+}
+
+.feedback h1{
+    font-size: 1rem;
+    padding: 0.4rem;
+}
+
+.feedback input{
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 0.4rem;
+    border: none
+}
+
+.feedback .message{
+    width: 15rem;
+    height: 6rem;
+    border-radius: 0.4rem;
+    border: none
+}
+
+.sendfeedback{
+    margin: 0.4rem;
+    margin-left: 3rem;
+    height: 2rem;
+    width: 4rem;
+    border: none;
+    background-color: var(--pure);
+    border-radius: 0.4rem;
+    transition: .6s;
+}
+
+.sendfeedback:hover{
+    background-color: var(--dark);
+    color: var(--pure);
 }

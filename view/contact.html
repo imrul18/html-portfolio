@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="home">
+    <header class="contact">
         <div class="container">
 
             <nav class="flex item-center justify-between">
@@ -21,7 +21,7 @@
                     <div class="branding flex item-center">
                         <a href="./home.html"><img src="../img/logo.svg" alt="logo"></a>
                         <div>
-                            <a style="color: #3DCFD3" href="./home.html">Home</a>
+                            <a href="./home.html">Home</a>
                             <a href="./about.html">About</a>
                             <a href="./education.html">Education</a>
                             <a href="">Page</a>
@@ -34,27 +34,41 @@
                 </div>
             </nav>
 
-            <div class="homebody">
-                <div class="hero flex item-center justify-between">
-                    <div class="left flex-1 flex justify-center">
-                        <img src="../img/man.png" alt="Imrul Afnan">
-                    </div>
-                    <div class="right flex-1">
-                        <h6>Imrul Afnan</h6>
-                        <h1>I'm a Software <span>Engineer</span></h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem amet maiores numquam. Quidem
-                            neque dolor, </p>
-                        <div>
-                            <button class="btn btn-secondary"> Download CV </button>
+            <div class="contactbody">
+                <div class="contactcard">
+                    <div class="show">
+                        <h1>Contact Info</h1>
+                        <div class="phone">
+                            <img src="../img/phone.png" alt="" height="30px" width="30px"> +8801677756337
+                        </div>
+
+                        <div class="email">
+                            <a href="mailto:imrul.afnan18@gmail.com"><img src="../img/email.png" alt="" height="30px"
+                                    width="30px"> imrul.afnan18@gmail.com</a>
                         </div>
                     </div>
+
+                    <div class="feedback">
+                        <h1>Name:</h1>
+                        <input type="text" name="" id="">
+                        <h1>Email:</h1>
+                        <input type="text">
+                        <h1>Message:</h1>
+                        <input type="text" class="message">
+                        <h1></h1>
+
+                        <button class="sendfeedback" onclick="window.location.href = './home.html'">Send</button>
+                    </div>
                 </div>
+
             </div>
 
 
 
         </div>
     </header>
+
+
 </body>
 
 </html>
